@@ -5,9 +5,15 @@ function init() {
   console.log(code)
   let index = 0;
   document.body.addEventListener('keydown',function(e){
+<<<<<<< HEAD
     console.log(`e.location: ${e.location}`);
 
     if(e.location===code[index]){
+=======
+    console.log(`e.keyCode: ${e.keyCode}`);
+
+    if(e.keyCode===code[index]){
+>>>>>>> 484769ceeba142ba532787fb68be8b41ff34168f
       index++;
       console.log(`index: ${index}`)
 
